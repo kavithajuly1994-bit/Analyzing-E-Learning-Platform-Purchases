@@ -9,13 +9,16 @@
 * Analyzed trends such as monthly revenue, category performance, and customer engagement
 
 🗂 Database Structure
-*👤 Learners Table
+
+👤 Learners Table
 *  Stores learner details
 *  Columns: learner_id, full_name, country
-*📚 Courses Table
+  
+📚 Courses Table
 *   Stores course information
 *   Columns: course_id, course_name, category, unit_price
-*🛒 Purchases Table
+  
+🛒 Purchases Table
 *   Stores transaction data
 *   Columns: purchase_id, learner_id, course_id, quantity, purchase_date
 *   Uses foreign keys to connect learners and courses
